@@ -979,7 +979,7 @@ class _ContactChipState extends State<ContactChip> {
         child: AnimatedContainer(
           duration: const Duration(milliseconds: 150),
           transform: Matrix4.identity()
-            ..scale(_pressed ? 0.95 : 1.0),
+            ..scale(_pressed ? 0.95 : 1.0, _pressed ? 0.95 : 1.0),
           transformAlignment: Alignment.center,
           padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 9),
           decoration: BoxDecoration(
