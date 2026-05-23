@@ -212,11 +212,7 @@ class HeaderSection extends StatelessWidget {
               label: 'aishwaryasuvarna16@gmail.com',
               url: 'mailto:aishwaryasuvarna16@gmail.com',
             ),
-            ContactChip(
-              icon: Icons.link,
-              label: 'LinkedIn',
-              url: 'https://www.linkedin.com/in/aishwarya-suvarna/',
-            ),
+
             ContactChip(
               icon: Icons.code,
               label: 'GitHub',

@@ -1,14 +1,8 @@
 {
   "cleanUrls": true,
-  "trailingSlash": false,
-  "rewrites": [
-    {
-      "source": "/assets/(.*)",
-      "destination": "/build/web/assets/$1"
-    },
-    {
-      "source": "/(.*)",
-      "destination": "/build/web/$1"
-    }
+  "outputDirectory": "build/web",
+  "routes": [
+    { "handle": "filesystem" },
+    { "src": "/.*", "dest": "/index.html" }
   ]
 }
