@@ -235,7 +235,7 @@ class HeaderSection extends StatelessWidget {
             ContactChip(
               icon: Icons.description,
               label: 'Resume',
-              url: "assets/files/resume.pdf",
+              url: "assets/assets/files/resume.pdf",
             ),
           ],
         ),
@@ -342,8 +342,8 @@ class MainColumn extends StatelessWidget {
               url:
               'https://drive.google.com/file/d/1CGcgDiPQQkOILzCozoC6IT7_SeFHbRlq/view?usp=sharing',
               bullets: [
-                BulletItem(text: 'Developed custom NetSuite SuiteScript 2.0 modules (Client Scripts, User Event Scripts, Suitelets, and Map/Reduce) to automate core business processes.'),
-                BulletItem(text: 'Designed and automated complex Advanced PDF/HTML and Suitlet templates for diverse internal and external business records, embedding dynamic data-binding rules to ensure layout compliance across multiple client accounts.'),
+                BulletItem(text: 'Developed 10+ custom NetSuite SuiteScript 2.0 modules (Client Scripts, User Event Scripts, Suitelets, and Map/Reduce) to automate core business processes.'),
+                BulletItem(text: 'Engineered dynamic PDF/HTML invoice and PO templates with structured tax breakdowns, adopted across multiple client accounts.'),
                 BulletItem(text: 'Reduced manual data entry by building automated field-level validation workflows and record-update triggers.'),
                 BulletItem(text: 'Integrated NetSuite with third-party platforms using RESTful APIs, enabling real-time bidirectional data sync.'),
                 BulletItem(text: 'Designed and deployed a cross-platform Flutter mobile app integrated with NetSuite via secure RESTful APIs.'),
@@ -358,9 +358,9 @@ class MainColumn extends StatelessWidget {
               url:
               'https://drive.google.com/file/d/1NNl_C7G10-yATlLtc5SNPkZ-Yk1jxV0B/view?usp=sharing',
               bullets: [
-                BulletItem(text: 'Built Angular data visualization screens from wireframes, including drill-down reports with dynamic filters.'),
+                BulletItem(text: 'Built 5+ Angular data visualization screens from wireframes, including drill-down reports with dynamic filters.'),
                 BulletItem(text: 'Reduced data processing time by 20% by streamlining ETL procedures in the BI platform.'),
-                BulletItem(text: 'Deployed and validated reports in the UAT environment, resolving critical frontend defects pre-release.'),
+                BulletItem(text: 'Deployed and validated reports in the validated UAT environment, resolving critical frontend defects pre-release.'),
               ],
             ),
           ],
@@ -474,19 +474,7 @@ class SideColumn extends StatelessWidget {
                 Skill('Jira', logo: 'assets/image/jira.png'),
               ],
             ),
-            SkillGroup(
-              title: 'Concepts',
-              skills: [
-                Skill('REST APIs'),
-                Skill('Agile/Scrum'),
-                Skill('SDLC'),
-                Skill('OOP'),
-                Skill('CI/CD'),
-                Skill('MVC'),
-                Skill('Data Structures'),
-              ],
-            ),
-          ],
+                    ],
         ),
         SizedBox(height: 16),
         ResumeSection(
