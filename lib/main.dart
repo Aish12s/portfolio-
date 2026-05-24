@@ -436,7 +436,7 @@ class SideColumn extends StatelessWidget {
                 Skill('Java', logo: 'assets/image/java.png'),
                 Skill('Dart', logo: 'assets/image/dart.png'),
                 Skill('C', logo: 'assets/image/c.png'),
-                Skill('C++', logo: 'assets/image/c++.png'),
+                Skill('C++', logo: 'assets/image/cpp.png'),
                 Skill('HTML', logo: 'assets/image/html.png'),
                 Skill('CSS', logo: 'assets/image/css.png'),
                 Skill('C#', logo: 'assets/image/csharp.png'),
